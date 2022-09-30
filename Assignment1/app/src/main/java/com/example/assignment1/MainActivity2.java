@@ -19,7 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         //Strings received from activity1 are stored in new strings
-        String total = ("Total = " + (getIntent().getStringExtra("keyTotal")));
+        String total = ("Total = $" + (getIntent().getStringExtra("keyTotal")));
         String toppings = ("Toppings: " + (getIntent().getStringExtra("keyToppings")));
         String size = ("Size: " + (getIntent().getStringExtra("keySize")));
         String sIns = ("Special Instructions: " + (getIntent().getStringExtra("keyInstructions")));
